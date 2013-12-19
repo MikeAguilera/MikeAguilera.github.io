@@ -74,7 +74,8 @@ h3 {
 /*navigation*/
 
 #nav ul {
-	width: 90%;
+	/*width: 90%;*/
+	width: 99%;
 	margin: 20% 2% 0 2%;
 	list-style: none;
 	float: right;
@@ -147,7 +148,7 @@ h3 {
 
 #new-courses img {
 	box-sizing: border-box;
-	background-color: #FFBF00;
+	background-color: #00BD39;
 	padding: 8px;
 	margin: 0 0 5% 0;
 }
@@ -236,6 +237,9 @@ h3 {
 		width: 25%;
 		margin: 5% 0 2% 0;
 	}*/
+#copyright {
+	width: 100%;
+}
 
 /* Smaller ----------- */
 @media screen and (max-width : 650px) {
@@ -262,7 +266,7 @@ h3 {
 
 #nav ul {
 	/*float: center;*/
-	margin: 5% 0;
+	/*margin: 5% 0;*/
 }
 
 #nav ul li a {
@@ -272,7 +276,7 @@ h3 {
 
 #nav ul li {
 	float: left;
-	margin: 2% 0;
+	/*margin: 2% 0;*/
 
 	}
 
@@ -281,7 +285,7 @@ h3 {
 #nav ul  li.case,
 #nav ul  li.referral,
 #nav ul  li.contact, #btn {
-	width: 90%;
+	width: 99%;
 	font-size: 1em;
 }
 
