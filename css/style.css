@@ -4,12 +4,12 @@ body {
 	font-family: 'Nunito', sans-serif;
 	font-weight: 100;
 	font-size: 1.125em;
-	color: #ffdc73;
-	background: #1B1BB3;
+	color: #FF9400;
+	background: #0B5FA5 url("img/blue_bg_dark.jpg") repeat ; 
 }
 
 a {
-	color: #00BD39;
+	color: #FF9400;
 	text-decoration: none;
 }
 
@@ -24,25 +24,27 @@ h1 {
 	font-size: 1.750em;
 	font-weight: 100;
 	letter-spacing: -1.5px;
+	margin-bottom: 70px;
+	margin-top: -20px;
 }
 
 h2 {
 	font-weight: 100;
 	font-size: 1.500em;
-	color: #FFCF40;
+	color: #FFC473;
 }
 h3 {
 	font-weight: 100;
 	font-size: 1.125em;
-	color: #7373D9;
+	color: #FF9400;
 }
 
 /*buttons*/
 
 .btn {
 	padding: 15px 30px;
-	color: #1B1BB3;
-	background-color: #FFBF00;
+	color: #043c6b;
+	background-color: #FB8330;
 	/*background: #4fb69f url('img/texture.png') no-repeat right top;*/
 	border-radius: 25px;
 	-webkit-border-radius: 25px;
@@ -51,24 +53,26 @@ h3 {
 }
 
 .btn:hover {
-	background-color: #FFCF40;
+	background-color: #FFAE40;
 }
 
 
 .btn-small {
+	margin: 0 20px 0 0;
 	padding: 10px 25px;
-	color: #1B1BB3;
+	color: #043c6b;
 	font-size: .75em;
-	background-color: #FFBF00;
+	background-color: #FB8330;
 	/*background: #b22316 url('texture.png') no-repeat right bottom;*/
 	border-radius: 25px;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
 	text-transform: uppercase;
+
 }
 
 .btn-small:hover {
-	background-color: #FFCF40;
+	background-color: #FFAE40;
 }
 
 /*navigation*/
@@ -93,13 +97,13 @@ h3 {
 		width: 20%;
 		margin: 0 2% 0 2%;
 		padding: 8px 0;
-		color: #1B1BB3;
+		color: #043c6b;
 		font-family: 'Nunito', sans-serif;
 		text-align: center;
 		border: 0;
 		font-weight: 100;
 		font-size: .75em;
-		background: #FFBF00;
+		background: #FB8330;
 		border-radius: 25px;
 		-webkit-border-radius: 25px;
 		-moz-border-radius: 25px;
@@ -132,10 +136,10 @@ h3 {
 		text-transform: uppercase;
 	}*/
 #nav ul li.last:hover {
-		background-color: #c62718;
+		background-color: #FFAE40;
 	}
 #nav ul li a {
-	color: #1B1BB3;
+	color: #043c6b;
 	display: block;
 	text-decoration: none;
 	}
@@ -148,25 +152,39 @@ h3 {
 
 #new-courses img {
 	box-sizing: border-box;
-	background-color: #00BD39;
+	background-color: #043C6B;
 	padding: 8px;
 	margin: 0 0 5% 0;
+}
+#new-courses p {
+	color: #FFF380;
 }
 
 #featured-course img {
 	box-sizing: border-box;
-	background-color: #00BD39;
+	background-color: #043C6B;
 	padding: 8px;
 	margin: 0 0 5% 0;
 }
 
-#contact span{
-	color: #b22316;
+#featured-course p {
+	color: #FFF380;
+}
+#placement p {
+	margin-bottom: 20px;
+	color: #FFF380;
+}
+
+#contact span {
+	color: #FF9400;
 	font-weight: 600;
+}
+#contact p {
+	color: #FFF380;
 }
 
 #copyright {
-	border-top: 8px solid #2a0400;
+	border-top: 8px solid #043C6B;
 	padding: 2% 0;
 	margin: 2% 0;
 	text-align: center;
@@ -186,6 +204,15 @@ h3 {
 }
 #intro h1 {
 	margin:  0 0 5% 0;
+}
+
+#featured-course img {
+	margin: 5% 0;
+	width: 100%;
+}
+#new-courses img {
+	margin: 5% 0;
+	width: 150%;
 }
 #logo {
 	width: 100%;
@@ -260,6 +287,17 @@ h3 {
 	width: 100%;
 	/*width:100%;*/
 }
+
+#intro, #about {
+	display: none;
+}
+#featured-course img {
+	width: 100%;
+}
+#new-courses, #new-courses p, #new-courses img {
+	width: 100%;
+}
+
 #logo object {
 	max-width: 100%;
 }
@@ -311,12 +349,5 @@ h3 {
 	}*/
 
 
-#intro, #about {
-	display: none;
-}
-#featured-course, #new-courses {
-	margin: 5% 0;
-}
 
-}
 
