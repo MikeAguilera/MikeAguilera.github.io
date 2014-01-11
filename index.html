@@ -1,130 +1,146 @@
-<!DOCTYPE HTML>
-<html>
+<! DOCTYPE HTML>	
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<title>DCFS Training Section</title>
-	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
-	<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+	<title>Taylor Adoptions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+    <link href="css/my-styles.css" rel="stylesheet" media="screen">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
-	<div class="container clearfix">
-		<div id="logo" class="grid_4" >
-						
-		 	<object data="img/TRN_White.svg" type="image/svg+xml" class="logo">
-			    <!-- [if lte IE 8 ] -->
-			       <img src="img/TRN_White.gif" alt="DCFS Training"> 
-			    <!-- [endif] -->
-			</object>  
+ <!-- Navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand text-muted" href="#">Taylor Adoptions</a>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About Taylor Adoptions</a></li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" data-target="#">Taylor Adoptions<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Learn About Adoption</a></li>
+                <li><a href="#">Types of Adoptions</a></li>
+                <li><a href="#">Where to Start?</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Lets Sit &amp; Talk</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div><!-- End navbar -->
 
-		</div>
-		<div id="nav" class="grid_8 omega">
-			<ul>
-				<li class="placement"><a href="field_guides.html">Field Guides</a></li>
-				<li class="case"><a href="interviewing.html">Interviewing</a></li>
-				<li class="referral"><a href="efficiency.html">EDB</a></li>
-				<li class="contact"><a href="contactus.html">Contact Us</a></li>
-			</ul>
-		</div>
-		
-		<div id="intro" class="grid_9">
-			<h1>This site was designed to provide helpful guides and resources for social workers to access in the field. Click on the links to see resources that can help you improve your ability to keep children safe.</h1>
-			<p><a href="http://learningnet.lacounty.gov/Saba/Web/Main" class="btn">Browse Our Trainings</a></p>
-		</div>
-		 <div id ="intro-img" class="grid_3 omega">
-			<object data="img/DCFS_Logo_New.svg" type="image/svg+xml">
-			    <!-- [if lte IE 8 ] -->
-			      <img src="img/DCFS_Logo_New.gif" alt="Supporting Img">
-			    <!-- [endif] -->
-			</object> 
-		</div>
-	
-		<div id="featured-course" class="grid_7">
-			<h2>Quality Contacts</h2>
-			<p>This week’s featured training is <a href="#">Quality Contacts</a>. Improve your home visits and documentation with ease!</p>
-			
-				 <div data-picture data-alt="Training Img">
-			        <div data-src="external/imgs/TRN_White.svg"></div>
-			        <div data-src="external/imgs/TRN_White.svg"     data-media="(min-width: 400px)"></div>
-			        <div data-src="external/imgs/TRN_White.svg"      data-media="(min-width: 800px)"></div>
-			        <div data-src="external/imgs/TRN_White.svg" data-media="(min-width: 1000px)"></div>
+	<!-- Carousel -->
+    <div id="myCarousel" class="carousel slide jumbotron">
+      <div class="container">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li> 
+          <li data-target="#myCarousel" data-slide-to="3"></li>           
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <h1>Welcome to Taylor Adoptions</h1>
+            <p class="lead">The definitive agency for domestic, foster care and international adoptions</p>
+            <p class="btn-group">
+              <a class="btn btn-success btn-lg" href="#">Contact Us</a>
+              <a class="btn btn-default btn-lg hidden-xs" href="#" >Text me</a>
+            </p> 
+          </div>
+          <div class="item">
+            <h1>Domestic Adoptions</h1>
+              <p class="lead">Interested in a Domestic adoptions? We'll help you figure out where to start!</p>
+              <p>
+                <a class="btn btn-success btn-lg" href="#">Get started today!</a>
+              </p>
+          </div>
+          <div class="item">
+            <h1>Foster Care Adoptions</h1>
+            <p class="lead">Adoptioning from Foster Care can be so satisfying. We'll explain the process and help you get started!</p>
+            <p>
+              <a class="btn btn-success btn-lg" href="#">Get started today!</a>
+            </p>            
+          </div>
+          <div class="item">
+            <h1>International Adoptions</h1>
+            <p class="lead">Looking to adopt a child internationally? We'll explain the process and help you get started!</p>
+            <p>
+              <a class="btn btn-success btn-lg" href="#">Get started today!</a>
+            </p>            
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+      </a>
+    </div>
+    <!-- End carousel -->
 
-			        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-			        <noscript>
-			            <img src="external/imgs/TRN_White.svg" alt="Training Img 2">
-			        </noscript>
-			    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <b class="glyphicon glyphicon-road"></b>
+          <h2>Don't be alone</h2>
+          <p>Our staff have a deep knowledge of adoption and we know how hard it can be to walk this path. Let us be their with you during this exciting time.</p>
+        </div>
+        <div class="col-sm-4">
+          <b class="glyphicon glyphicon-eye-open"></b>
+          <h2>Find an agency.</h2>
+          <p>We are constantly researching and keeping up-to-date on all the trending programs and agencies to give you the absolut best information about who to work with.</p>
+       </div>
+        <div class="col-sm-4">
+          <b class="glyphicon glyphicon-heart"></b>
+          <h2>Your your family</h2>
+          <p>From deciding if adoption is right for your family to helping adjust to having your child home, we will support you for all your needs.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-sm-6 hidden-xs">
+          <h3>Learn how to start your adoption today.</h3>
+          <p>We can help you find a credible and reliable agency and walk you through the steps to adopt a child here in the United States and Internationally.</p>
+          <div class="row">
+            <div class="col-sm-12">
+              <p>Call us now for a free consultation!</p>
+              <p><a href="#">Call Taylor Adoptions Now &raquo;</a></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-6">
+          <h3>About Taylor Adoptions</h3>
+          <p>Taylor Adoptions provides services and supports that will give you a wide range of options and choices that will help you bring your child home.</p>
+          <a href="#" class="btn btn-success btn-md">Sign up for our newsletter &raquo;</a>
+        </div>
+      </div>
 
-		</div>
-		
-		<div id="new-courses" class="grid_5 omega">
-				<h2>Efficiency Training</h2>
-				<p>Our newest course is <a href="#">Efficiency Training</a><br> and <a href="#">Educaiton Based Discipline</a>. </p>
+      <hr>
+      <div class="pull-right">
+        <p>&copy; 2014 Taylor Adoptions - By Taylor Adoptions, Inc.</p>
+      </div>
+    </div>
 
-				<div data-picture data-alt="Efficiency Training">
-			        <div data-src="external/imgs/white_hands-smaller.svg"></div>
-			        <div data-src="external/imgs/white_hands-smaller.svg"     data-media="(min-width: 400px)"></div>
-			        <div data-src="external/imgs/white_hands-smaller.svg"      data-media="(min-width: 800px)"></div>
-			        <div data-src="external/imgs/white_hands-smaller.svg" data-media="(min-width: 1000px)"></div>
-			        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-			        <noscript>
-			            <img src="external/imgs/white_hands-smaller.svg" alt="New Course">
-			        </noscript>
-			    </div>
+<script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
 
-				<div data-picture data-alt="Educaiton Based Discipline">
-			        <div data-src="external/imgs/white_hands-smaller.svg"></div>
-			        <div data-src="external/imgs/white_hands-smaller.svg"     data-media="(min-width: 400px)"></div>
-			        <div data-src="external/imgs/white_hands-smaller.svg"      data-media="(min-width: 800px)"></div>
-			        <div data-src="external/imgs/white_hands-smaller.svg" data-media="(min-width: 1000px)"></div>
-			        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-			        <noscript>
-			            <img src="external/imgs/white_hands-smaller.svg" alt="Educaiton Based Discipline">
-			        </noscript>
-			    </div>
 
-		</div>
-					
-			<div id="placement" class="grid_7">
-				<h2>Education Based Discipline</h2>
-				<p>This site was designed to provide helpful guides and resources for social workers to access in the field. Click on the links to see resources that can help you improve your ability to keep children safe.</p>
-				<p><a href="#" class="btn-small">Read More</a></p>
-			</div>
-		<div class="grid_5 omega">
-			<h2>Contact Us</h2>
-			<div id="contact">
-				<p>Call us: <span>1-562-345-6720</span><br>
-				Email us: <a href="#">agullm@dcfs.lacounty.gov</a></p>
-				<p>We announce all of our new courses first through LAKids &amp; the Directors Message, and even take requests!</p>
-			</div>
-					
-			<!-- <object data="img/facebook.svg" type="image/svg+xml">
-			  <a href="facebook.svg">
-			    <!--[if lte IE 8 ]-->
-			      <!-- <img src="img/facebook.gif" alt="Facebook"> -->
-			    <!--![endif]-->
-			 <!--  </a>
-			</object> -->
 
-			<!-- <object data="img/twitter.svg" type="image/svg+xml"> -->
-			    <!--[if lte IE 8 ]-->
-			    <!--   <img src="img/twitter.gif" alt="Twitter"> -->
-			    <!--![endif]-->
-			<!-- </object>
-		</div> --> 
-		</div>
-		<div id="copyright" class="grid_12 omega">
-			<p>© 2013 Los Angeles County Department of Children and Family Services. All Rights Reserved.</p>
-		</div>
-		
-	</div>
 
-	<script src="external/matchmedia.js"></script>
-	<script src="picturefill.js"></script>
-	
+
 </body>
-</html>
