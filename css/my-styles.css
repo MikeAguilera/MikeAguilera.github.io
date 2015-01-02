@@ -11,9 +11,15 @@ body {
 ================================ */
 
 .jumbotron {
+  height: 600px !important;
   text-align: center;
   padding-bottom: 50px;
-}
+  margin-top: -35px;		
+  }
+
+  .carousel-inner {
+  	margin-top: 50px;
+  }
 
 /* Glyphicons
 ================================ */
@@ -40,9 +46,81 @@ body {
 	border-color: #222;
 }
 
+/* Carousel Images
+================================ */
 
+.water {
+	background-image:url("images/NatGeo01.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-position: 100% 55%; */
+	box-shadow: 0 15px 20px -5px  rgba(143, 144, 146, .8);
+}
 
+.river {
+	background-image: url("images/Aerial03.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-position: 100% 55%; */
+	box-shadow: 0 15px 20px -5px  rgba(143, 144, 146, .8);
+}
 
+.bird {
+	background-image: url("images/NatGeo06.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-position: 90% 35%; */
+	box-shadow: 0 15px 20px -5px  rgba(143, 144, 146, .8);
+}
+
+.lake {
+	background-image: url("images/NatGeo07.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-position: 100% 55%; */
+	box-shadow: 0 15px 20px -5px  rgba(143, 144, 146, .8);
+}
+
+.tree {
+	background-image: url("images/NatGeo11.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-position: 100% 55%; */
+	box-shadow: 0 15px 20px -5px  rgba(143, 144, 146, .8);
+}
+
+.lions {
+	background-image: url("images/NatGeo17.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-position: 100% 55%; */
+	box-shadow: 0 15px 20px -5px  rgba(143, 144, 146, .8);
+}
+
+/* Carousel Fonts
+================================ */
+
+.shadow {
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);	
+}
+/* Text 3D Effect*/
+/*0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);*/
+
+.carouselP {
+	/*color: #000;*/
+	font-weight: 600;
+}
 
 
 
