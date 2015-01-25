@@ -92,7 +92,7 @@ var quizJSON = {
             "incorrect": "<p><span>Hmmm.</span> Nice try. </p>" // no comma here
         },
         { // Question 8 - Multiple Choice, Multiple True Answers, Select All
-            "q": "What is the Lingala phrase for daughter?",
+            "q": "What is the Lingala phrase for Daughter?",
             "a": [
                 {"option": "Pokwa",  "correct": false},
                 {"option": "Eyano",  "correct": false},
