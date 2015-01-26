@@ -2,20 +2,20 @@
 
 // NOTE: pay attention to commas, IE struggles with those bad boys
 
-var basicJSON = {
+var familyJSON = {
     "info": {
-        "name":    "Basic Test",
-        "main":    "<p> This is a great place to start!</p>",
+        "name":    "Family Test",
+        "main":    "<p> This is the Family Quiz</p>",
         "results": "<h5>Take another quiz</h5><p>Keep learning by taking more quizes.</p>",
         "level1":  "DRC Ready",
-        "level2":  "DRC Heavyweight",
-        "level3":  "DRC Light Heavyweight",
-        "level4":  "DRC Grande",
-        "level5":  "DRC Intermediate"  // no comma here
+        "level2":  "Lingala Intermediate",
+        "level3":  "Lingala Novice",
+        "level4":  "Not quite ready, but you will get there",
+        "level5":  "Keep it up, you will get better"  // no comma here
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
-            "q": "What is the Lingala phrase for apple?",
+            "q": "What is the Lingala phrase for run?",
             "a": [
                 {"option": "Mbuma ya pomme",    "correct": true},
                 {"option": "Mbuma ya lait",     "correct": false},
@@ -26,7 +26,7 @@ var basicJSON = {
             "incorrect": "<p><span>Uhh no.</span> Better luck next time <em></em></p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
-            "q": "What is the Lingala phrase for Baby?",
+            "q": "What is the Lingala phrase for walk?",
             "a": [
                 {"option": "Wanna Poke",   "correct": false},
                 {"option": "Mwana Moke",   "correct": true},
@@ -38,7 +38,7 @@ var basicJSON = {
             "incorrect": "<p><span>Hmmm.</span> Nice try. </p>" // no comma here
         },
         { // Question 3 - Multiple Choice, Multiple True Answers, Select All
-            "q": "What is the Lingala phrase for Bank?",
+            "q": "What is the Lingala phrase for sit?",
             "a": [
                 {"option": "Pokwa",  "correct": false},
                 {"option": "Eyano",  "correct": false},
@@ -49,7 +49,7 @@ var basicJSON = {
             "incorrect": "<p><span>Not Quite.</span> But nice try.</p>" // no comma here
         },
         { // Question 4
-            "q": "What is the Lingala phrase for Boy?",
+            "q": "What is the Lingala phrase for swim?",
             "a": [
                 {"option": "Maswa",    "correct": false},
                 {"option": "Mwana mobali", "correct": true},
@@ -60,7 +60,7 @@ var basicJSON = {
             "incorrect": "<p><span>Fail.</span> Sorry. You lose.</p>" // no comma here
         },
         { // Question 5
-            "q": "What is the Lingala phrase for Bus?",
+            "q": "What is the Lingala phrase for fly?",
             "a": [
                 {"option": "Mokanda",    "correct": false},
                 {"option": "Motuka",     "correct": true} // no comma here
@@ -69,7 +69,7 @@ var basicJSON = {
             "incorrect": "<p><span>ERRRR!</span></p>" // no comma here
         }, 
         { // Question 6 - Multiple Choice, Single True Answer
-            "q": "What is the Lingala phrase for Mommy?",
+            "q": "What is the Lingala phrase for hug?",
             "a": [
                 {"option": "Mama",    "correct": true},
                 {"option": "Mbuma",     "correct": false},
@@ -80,7 +80,7 @@ var basicJSON = {
             "incorrect": "<p><span>Uhh no.</span> Better luck next time <em></em></p>" // no comma here
         },
         { // Question 7 - Multiple Choice, Multiple True Answers, Select Any
-            "q": "What is the Lingala phrase for Daddy?",
+            "q": "What is the Lingala phrase for eat?",
             "a": [
                 {"option": "Papi",   "correct": false},
                 {"option": "Papa",   "correct": true},
@@ -92,7 +92,7 @@ var basicJSON = {
             "incorrect": "<p><span>Hmmm.</span> Nice try. </p>" // no comma here
         },
         { // Question 8 - Multiple Choice, Multiple True Answers, Select All
-            "q": "What is the Lingala phrase for Daughter?",
+            "q": "What is the Lingala phrase for sleep?",
             "a": [
                 {"option": "Pokwa",  "correct": false},
                 {"option": "Mwana Mobali",  "correct": false},
@@ -103,7 +103,7 @@ var basicJSON = {
             "incorrect": "<p><span>Not Quite.</span> But nice try.</p>" // no comma here
         },
         { // Question 9
-            "q": "What is the Lingala phrase for Son?",
+            "q": "What is the Lingala phrase for wake up?",
             "a": [
                 {"option": "Maswa",    "correct": false},
                 {"option": "Mwana mobali", "correct": true},
@@ -114,7 +114,7 @@ var basicJSON = {
             "incorrect": "<p><span>Fail.</span> Sorry. You lose.</p>" // no comma here
         },
         { // Question 10
-            "q": "What is the Lingala phrase for Love You?",
+            "q": "What is the Lingala phrase for sing?",
             "a": [
                 {"option": "Lait",    "correct": false},
                 {"option": "Motuka",    "correct": false},

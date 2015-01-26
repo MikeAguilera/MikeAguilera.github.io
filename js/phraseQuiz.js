@@ -154,7 +154,7 @@
         plugin.config = $.extend(defaults, options);
 
         // Set via json option or quizJSON variable (see slickQuiz-config.js)
-        var quizValues = (plugin.config.json ? plugin.config.json : typeof basicJSON != 'undefined' ? basicJSON : null);
+        var quizValues = (plugin.config.json ? plugin.config.json : typeof phraseJSON != 'undefined' ? phraseJSON : null);
 
         // Get questions, possibly sorted randomly
         var questions = plugin.config.randomSortQuestions ?

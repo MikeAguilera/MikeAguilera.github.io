@@ -3,3 +3,6 @@
 $(function () {
     $('#slickQuiz').slickQuiz();
 });
+$(function () {
+    $('#verbQuiz').verbQuiz();
+});

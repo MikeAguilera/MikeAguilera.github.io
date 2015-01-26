@@ -6,7 +6,8 @@ html {
 }
 
 body {
-    width: 800px;
+    width: 100%;
+    height: auto%;
     margin: 0 auto;
     border: 2px solid #ccc;
     border-top: none;
@@ -138,4 +139,8 @@ ul.responses li.incorrect p span {
 .quizResultsCopy {
     clear: both;
     margin-top: 20px;
+}
+
+.page-header {
+    margin: 10px 0 20px !important;
 }
