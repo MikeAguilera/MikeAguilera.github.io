@@ -67,14 +67,14 @@ var quizJSON = {
             ],
             "correct": "<p><span>Good Job!</span> You must be very observant!</p>",
             "incorrect": "<p><span>ERRRR!</span></p>" // no comma here
-        }, // no comma here TEST TEST TEST
+        }, 
         { // Question 6 - Multiple Choice, Single True Answer
             "q": "What is the Lingala phrase for Mommy?",
             "a": [
-                {"option": "Mbuma ya pomme",    "correct": true},
-                {"option": "Mbuma ya lait",     "correct": false},
-                {"option": "Mbuma ya fromage",  "correct": false},
-                {"option": "Mbuma ya manzana",     "correct": false} // no comma here
+                {"option": "Mama",    "correct": true},
+                {"option": "Mbuma",     "correct": false},
+                {"option": "Mai",  "correct": false},
+                {"option": "Mwama",     "correct": false} // no comma here
             ],
             "correct": "<p><span>That's right!</span></p>",
             "incorrect": "<p><span>Uhh no.</span> Better luck next time <em></em></p>" // no comma here
@@ -82,10 +82,10 @@ var quizJSON = {
         { // Question 7 - Multiple Choice, Multiple True Answers, Select Any
             "q": "What is the Lingala phrase for Daddy?",
             "a": [
-                {"option": "Wanna Poke",   "correct": false},
-                {"option": "Mwana Moke",   "correct": true},
-                {"option": "Mwana Pomme",  "correct": false},
-                {"option": "Wanna Moke",   "correct": false} // no comma here
+                {"option": "Papi",   "correct": false},
+                {"option": "Papa",   "correct": true},
+                {"option": "Mwana",  "correct": false},
+                {"option": "Moke",   "correct": false} // no comma here
             ],
             "select_any": true,
             "correct": "<p><span>Nice!</span> Yes! That is correct. Baby in Lingala ia Mwana Moke!</p>",
@@ -95,9 +95,9 @@ var quizJSON = {
             "q": "What is the Lingala phrase for Daughter?",
             "a": [
                 {"option": "Pokwa",  "correct": false},
-                {"option": "Eyano",  "correct": false},
-                {"option": "Etabe",  "correct": false},
-                {"option": "Emobobelo Misolo",  "correct": true} // no comma here
+                {"option": "Mwana Mobali",  "correct": false},
+                {"option": "Mwana Mwasi",  "correct": true},
+                {"option": "Emobobelo Misolo",  "correct": false} // no comma here
             ],
             "correct": "<p><span>Brilliant!</span> You're seriously a genius.</p>",
             "incorrect": "<p><span>Not Quite.</span> But nice try.</p>" // no comma here
@@ -116,8 +116,10 @@ var quizJSON = {
         { // Question 10
             "q": "What is the Lingala phrase for Love You?",
             "a": [
+                {"option": "Lait",    "correct": false},
+                {"option": "Motuka",    "correct": false},
                 {"option": "Mokanda",    "correct": false},
-                {"option": "Motuka",     "correct": true} // no comma here
+                {"option": "Alingi",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Good Job!</span> You must be very observant!</p>",
             "incorrect": "<p><span>ERRRR!</span></p>" // no comma here
